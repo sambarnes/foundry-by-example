@@ -9,6 +9,7 @@ Covered so far:
 * [EtherWallet](https://solidity-by-example.org/app/ether-wallet/) ([EtherWallet.t.sol](./src/test/EtherWallet.t.sol)) - basic assertEq and expectRevert
 * [MerkleTree](https://solidity-by-example.org/app/merkle-tree/) ([MerkleTree.t.sol](./src/test/MerkleTree.t.sol)) - also super basic
 * [EnglishAuction](https://solidity-by-example.org/app/english-auction/) ([EnglishAuction.t.sol](./src/test/EnglishAuction.t.sol)) - pranking (account impersonation), dealing (mock balances), and warping (mock block timestamp)
+* [DutchAuction](https://solidity-by-example.org/app/dutch-auction/) ([DutchAuction.t.sol](./src/test/DutchAuction.t.sol)) - also basic
 * _TODO: more_
 
 
