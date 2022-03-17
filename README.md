@@ -1,46 +1,16 @@
 <img align="right" width="150" height="150" top="100" src="./assets/readme.jpg">
 
-# femplate • [![tests](https://github.com/abigger87/femplate/actions/workflows/tests.yml/badge.svg)](https://github.com/abigger87/femplate/actions/workflows/tests.yml) [![lints](https://github.com/abigger87/femplate/actions/workflows/lints.yml/badge.svg)](https://github.com/abigger87/femplate/actions/workflows/lints.yml) ![GitHub](https://img.shields.io/github/license/abigger87/femplate)  ![GitHub package.json version](https://img.shields.io/github/package-json/v/abigger87/femplate)
+# foundry-by-example • [![tests](https://github.com/sambarnes/foundry-by-example/actions/workflows/tests.yml/badge.svg)](https://github.com/sambarnes/foundry-by-example/actions/workflows/tests.yml) [![lints](https://github.com/sambarnes/foundry-by-example/actions/workflows/lints.yml/badge.svg)](https://github.com/sambarnes/foundry-by-example/actions/workflows/lints.yml) ![GitHub](https://img.shields.io/github/license/sambarnes/foundry-by-example)  ![GitHub package.json version](https://img.shields.io/github/package-json/v/sambarnes/foundry-by-example)
 
 
-Robust Template for Foundry Projects.
+This repo is my personal onramp to [foundry](https://github.com/gakonst/foundry) -- a testing setup for solidity. The applications at [solidity-by-example](https://solidity-by-example.org/) are simple & have no tests, so it seems like a decent exercise.
 
-## Getting Started
+Covered so far:
+* [EtherWallet](https://solidity-by-example.org/app/ether-wallet/) -- [EtherWallet.t.sol](./src/test/EtherWallet.t.sol)
+* _TODO: more_
 
-Click `use this template` on [Github](https://github.com/abigger87/femplate) to create a new repository with this repo as the initial state.
-
-Or, if your repo already exists, run:
-```sh
-forge init --template https://github.com/abigger87/femplate
-git submodule update --init --recursive
-forge install
-```
-
-Run `make rename` to rename all instances of `femplate` with the name of your project/repository.
-
-## Blueprint
-
-```ml
-lib
-├─ ds-test — https://github.com/dapphub/ds-test
-├─ forge-std — https://github.com/brockelmore/forge-std
-├─ solmate — https://github.com/Rari-Capital/solmate
-├─ clones-with-immutable-args — https://github.com/wighawag/clones-with-immutable-args
-src
-├─ tests
-│  └─ Greeter.t — "Greeter Tests"
-└─ Greeter — "A Minimal Greeter Contract"
-```
 
 ## Development
-
-
-**Setup**
-```bash
-make
-# OR #
-make setup
-```
 
 **Building**
 ```bash
@@ -51,18 +21,6 @@ make build
 ```bash
 make test
 ```
-
-**Deployment & Verification**
-
-Inside the [`scripts/`](./scripts/) directory are a few preconfigured scripts that can be used to deploy and verify contracts.
-
-Scripts take inputs from the cli, using silent mode to hide any sensitive information.
-
-NOTE: These scripts are required to be _executable_ meaning they must be made executable by running `chmod +x ./scripts/*`.
-
-NOTE: For local deployment, make sure to run `yarn` or `npm install` before running the `deploy_local.sh` script. Otherwise, hardhat will error due to missing dependencies.
-
-NOTE: these scripts will prompt you for the contract name and deployed addresses (when verifying). Also, they use the `-i` flag on `forge` to ask for your private key for deployment. This uses silent mode which keeps your private key from being printed to the console (and visible in logs).
 
 ### First time with Forge/Foundry?
 
@@ -103,11 +61,6 @@ For a full list of configuration options, see the Foundry [configuration documen
 ### Install DappTools
 
 Install DappTools using their [installation guide](https://github.com/dapphub/dapptools#installation).
-
-
-## License
-
-[AGPL-3.0-only](https://github.com/abigger87/femplate/blob/master/LICENSE)
 
 ## Acknowledgements
 
