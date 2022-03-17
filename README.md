@@ -59,9 +59,6 @@ Using [foundry.toml](./foundry.toml), Foundry is easily configurable.
 
 For a full list of configuration options, see the Foundry [configuration documentation](https://github.com/gakonst/foundry/blob/master/config/README.md#all-options).
 
-### Install DappTools
-
-Install DappTools using their [installation guide](https://github.com/dapphub/dapptools#installation).
 
 ## Acknowledgements
 
