@@ -3,10 +3,11 @@
 # foundry-by-example • [![tests](https://github.com/sambarnes/foundry-by-example/actions/workflows/tests.yml/badge.svg)](https://github.com/sambarnes/foundry-by-example/actions/workflows/tests.yml) [![lints](https://github.com/sambarnes/foundry-by-example/actions/workflows/lints.yml/badge.svg)](https://github.com/sambarnes/foundry-by-example/actions/workflows/lints.yml) ![GitHub](https://img.shields.io/github/license/sambarnes/foundry-by-example)  ![GitHub package.json version](https://img.shields.io/github/package-json/v/sambarnes/foundry-by-example)
 
 
-This repo is my personal onramp to [foundry](https://github.com/gakonst/foundry) -- a testing setup for solidity. The applications at [solidity-by-example](https://solidity-by-example.org/) are simple & have no tests, so it seems like a decent exercise.
+This repo is my personal onramp to [foundry](https://github.com/gakonst/foundry) -- a testing setup for solidity. The applications at [solidity-by-example](https://solidity-by-example.org/) are simple & some have no tests, so I'm re-writing it in foundry as an exercise.
 
 Covered so far:
 * [EtherWallet](https://solidity-by-example.org/app/ether-wallet/) -- [EtherWallet.t.sol](./src/test/EtherWallet.t.sol)
+* [MerkleTree](https://solidity-by-example.org/app/merkle-tree/) -- [MerkleTree.t.sol](./src/test/MerkleTree.t.sol)
 * _TODO: more_
 
 
