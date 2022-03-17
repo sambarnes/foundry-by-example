@@ -6,8 +6,9 @@
 This repo is my personal onramp to [foundry](https://github.com/gakonst/foundry) -- a testing setup for solidity. The applications at [solidity-by-example](https://solidity-by-example.org/) are simple & some have no tests, so I'm re-writing it in foundry as an exercise.
 
 Covered so far:
-* [EtherWallet](https://solidity-by-example.org/app/ether-wallet/) -- [EtherWallet.t.sol](./src/test/EtherWallet.t.sol)
-* [MerkleTree](https://solidity-by-example.org/app/merkle-tree/) -- [MerkleTree.t.sol](./src/test/MerkleTree.t.sol)
+* [EtherWallet](https://solidity-by-example.org/app/ether-wallet/) ([EtherWallet.t.sol](./src/test/EtherWallet.t.sol)) - basic assertEq and expectRevert
+* [MerkleTree](https://solidity-by-example.org/app/merkle-tree/) ([MerkleTree.t.sol](./src/test/MerkleTree.t.sol)) - also super basic
+* [EnglishAuction](https://solidity-by-example.org/app/english-auction/) ([EnglishAuction.t.sol](./src/test/EnglishAuction.t.sol)) - pranking (account impersonation), dealing (mock balances), and warping (mock block timestamp)
 * _TODO: more_
 
 
