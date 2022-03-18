@@ -6,12 +6,13 @@
 This repo is my personal onramp to [foundry](https://github.com/gakonst/foundry) -- a testing setup for solidity. The applications at [solidity-by-example](https://solidity-by-example.org/) are simple & some have no tests, so I'm re-writing it in foundry as an exercise.
 
 Covered so far:
-* [EtherWallet](https://solidity-by-example.org/app/ether-wallet/) ([EtherWallet.t.sol](./src/test/EtherWallet.t.sol)) - basic assertEq and expectRevert
+* [EtherWallet](https://solidity-by-example.org/app/ether-wallet/) ([EtherWallet.t.sol](./src/test/EtherWallet.t.sol)) - basic `assertEq` and `vm.expectRevert`
 * [MerkleTree](https://solidity-by-example.org/app/merkle-tree/) ([MerkleTree.t.sol](./src/test/MerkleTree.t.sol)) - also super basic
-* [EnglishAuction](https://solidity-by-example.org/app/english-auction/) ([EnglishAuction.t.sol](./src/test/EnglishAuction.t.sol)) - pranking (account impersonation), dealing (mock balances), and warping (mock block timestamp)
+* [EnglishAuction](https://solidity-by-example.org/app/english-auction/) ([EnglishAuction.t.sol](./src/test/EnglishAuction.t.sol)) - `vm.prank` (account impersonation), `vm.deal` (mock balances), and `vm.warp` (mock block timestamp)
 * [DutchAuction](https://solidity-by-example.org/app/dutch-auction/) ([DutchAuction.t.sol](./src/test/DutchAuction.t.sol)) - also basic
 * [MultiCall](https://solidity-by-example.org/app/multi-call/) ([MultiCall.t.sol](./src/test/MultiCall.t.sol)) - this was straightforward and easy too, noticing a trend
 * [UpgradableProxy](https://solidity-by-example.org/app/upgradeable-proxy/) ([UpgradableProxy.t.sol](./src/test/UpgradableProxy.t.sol)) - ezpz, the only interesting part here was learning how cool the proxy pattern is (shared storage between impl, but new code to execute against it? 🤯)
+* [WriteToAnySlot](https://solidity-by-example.org/app/write-to-any-slot/) ([WriteToAnySlot.t.sol](./src/test/WriteToAnySlot.t.sol)) - an excuse to try the `vm.store` cheatcode to put mock out storage slots
 * _TODO: more_
 
 
