@@ -5,7 +5,7 @@ import {DSTestPlus} from "./utils/DSTestPlus.sol";
 
 import {MultiCall} from "../MultiCall.sol";
 
-contract DutchAuctionTest is DSTestPlus {
+contract MultiCallTest is DSTestPlus {
     MultiCall private m;
 
     function setUp() public {

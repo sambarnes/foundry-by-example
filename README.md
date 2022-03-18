@@ -11,6 +11,7 @@ Covered so far:
 * [EnglishAuction](https://solidity-by-example.org/app/english-auction/) ([EnglishAuction.t.sol](./src/test/EnglishAuction.t.sol)) - pranking (account impersonation), dealing (mock balances), and warping (mock block timestamp)
 * [DutchAuction](https://solidity-by-example.org/app/dutch-auction/) ([DutchAuction.t.sol](./src/test/DutchAuction.t.sol)) - also basic
 * [MultiCall](https://solidity-by-example.org/app/multi-call/) ([MultiCall.t.sol](./src/test/MultiCall.t.sol)) - this was straightforward and easy too, noticing a trend
+* [UpgradableProxy](https://solidity-by-example.org/app/upgradeable-proxy/) ([UpgradableProxy.t.sol](./src/test/UpgradableProxy.t.sol)) - ezpz, the only interesting part here was learning how cool the proxy pattern is (shared storage between impl, but new code to execute against it? 🤯)
 * _TODO: more_
 
 
