@@ -10,6 +10,7 @@ Covered so far:
 * [MerkleTree](https://solidity-by-example.org/app/merkle-tree/) ([MerkleTree.t.sol](./src/test/MerkleTree.t.sol)) - also super basic
 * [EnglishAuction](https://solidity-by-example.org/app/english-auction/) ([EnglishAuction.t.sol](./src/test/EnglishAuction.t.sol)) - pranking (account impersonation), dealing (mock balances), and warping (mock block timestamp)
 * [DutchAuction](https://solidity-by-example.org/app/dutch-auction/) ([DutchAuction.t.sol](./src/test/DutchAuction.t.sol)) - also basic
+* [MultiCall](https://solidity-by-example.org/app/multi-call/) ([MultiCall.t.sol](./src/test/MultiCall.t.sol)) - this was straightforward and easy too, noticing a trend
 * _TODO: more_
 
 
